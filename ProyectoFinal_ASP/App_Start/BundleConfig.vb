@@ -21,6 +21,28 @@ Public Module BundleConfig
         bundles.Add(New StyleBundle("~/Content/css").Include(
                   "~/Content/bootstrap.css",
                   "~/Content/site.css"))
+
+        '-- CSS Hireo
+        bundles.Add(New StyleBundle("~/Content/Hireo_css").Include(
+                      "~/Content/HireoTemplate/css/style.css",
+                      "~/Content/HireoTemplate/css/colors/blue.css"))
+
+        '-- Scripts Hireo
+        bundles.Add(New ScriptBundle("~/Content/Hireo_js").Include(
+                    "~/Content/HireoTemplate/js/jquery-3.3.1.min.js",
+                    "~/Content/HireoTemplate/js/jquery-migrate-3.0.0.min.js",
+                    "~/Content/HireoTemplate/js/mmenu.min.js",
+                    "~/Content/HireoTemplate/js/tippy.all.min.js",
+                    "~/Content/HireoTemplate/js/simplebar.min.js",
+                    "~/Content/HireoTemplate/js/bootstrap-slider.min.js",
+                    "~/Content/HireoTemplate/js/bootstrap-select.min.js",
+                    "~/Content/HireoTemplate/js/snackbar.js",
+                    "~/Content/HireoTemplate/js/clipboard.min.js",
+                    "~/Content/HireoTemplate/js/counterup.min.js",
+                    "~/Content/HireoTemplate/js/magnific-popup.min.js",
+                    "~/Content/HireoTemplate/js/slick.min.js",
+                    "~/Content/HireoTemplate/js/custom.js"))
+
     End Sub
 End Module
 
