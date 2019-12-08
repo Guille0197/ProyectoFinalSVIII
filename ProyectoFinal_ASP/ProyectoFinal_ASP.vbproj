@@ -150,6 +150,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\SinglePageJobController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -508,6 +509,7 @@
     <Content Include="Content\HireoTemplate\images\user-avatar-small-01.jpg" />
     <Content Include="Content\HireoTemplate\images\user-avatar-small-02.jpg" />
     <Content Include="Content\HireoTemplate\images\user-avatar-small-03.jpg" />
+    <Content Include="Content\HireoTemplate\jobs-list-layout-1.html" />
     <Content Include="Content\HireoTemplate\js\bootstrap-select.min.js" />
     <Content Include="Content\HireoTemplate\js\bootstrap-slider.min.js" />
     <Content Include="Content\HireoTemplate\js\chart.min.js" />
@@ -643,6 +645,8 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Shared\_Layout_JobHire.vbhtml" />
+    <Content Include="Views\SinglePageJob\Index.vbhtml" />
+    <Content Include="Views\Home\JobListPma.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -664,7 +668,7 @@
     </Content>
     <Content Include="Content\Site.css" />
     <Content Include="Views\_ViewStart.vbhtml" />
-    <Content Include="Views\Home\About.vbhtml" />
+    <Content Include="Views\Home\AllJob.vbhtml" />
     <Content Include="Views\Home\Contact.vbhtml" />
     <Content Include="Views\Home\Index.vbhtml" />
     <Content Include="Views\Shared\Error.vbhtml" />

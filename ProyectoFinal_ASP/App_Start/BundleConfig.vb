@@ -41,7 +41,10 @@ Public Module BundleConfig
                     "~/Content/HireoTemplate/js/counterup.min.js",
                     "~/Content/HireoTemplate/js/magnific-popup.min.js",
                     "~/Content/HireoTemplate/js/slick.min.js",
-                    "~/Content/HireoTemplate/js/custom.js"))
+                    "~/Content/HireoTemplate/js/custom.js",
+                    "~/Content/HireoTemplate/js/infobox.min.js",
+                    "~/Content/HireoTemplate/js/markerclusterer.js",
+                    "~/Content/HireoTemplate/js/maps.js.js"))
 
     End Sub
 End Module

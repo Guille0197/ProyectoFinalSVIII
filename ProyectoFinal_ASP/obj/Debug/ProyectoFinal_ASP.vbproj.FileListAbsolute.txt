@@ -77,10 +77,10 @@ C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\bin\es\System.
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\bin\es\System.Web.WebPages.resources.dll
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.vbprojAssemblyReference.cache
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.Resources.resources
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.vbproj.GenerateResource.cache
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.vbproj.CopyComplete
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.dll
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.xml
 C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.pdb
+C:\Users\gnava\Source\Repos\ProyectoFinalSVIII2\ProyectoFinal_ASP\obj\Debug\ProyectoFinal_ASP.vbprojAssemblyReference.cache

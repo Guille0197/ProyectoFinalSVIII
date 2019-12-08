@@ -32,7 +32,7 @@
 
                         <!-- Logo -->
                         <div id="logo">
-                            <a href="index.html"><img src="~/Content/HireoTemplate/images/logo.png" alt=""></a>
+                            <a href="@Url.Action("index", "Home")"><img src="~/Content/HireoTemplate/images/logo.png" alt=""></a>
                         </div>
 
                         <!-- Main Navigation -->

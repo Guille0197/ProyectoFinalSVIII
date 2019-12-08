@@ -167,14 +167,15 @@ End Code
                 <!-- Section Headline -->
                 <div class="section-headline margin-top-0 margin-bottom-35">
                     <h3>Trabajos destacados</h3>
-                    <a href="jobs-list-layout-full-page-map.html" class="headline-link">Buscar todos los trabajos</a>
+                    <a href="@Url.Action("AllJob")" class="headline-link">Buscar todos los trabajos</a>
                 </div>
 
                 <!-- Jobs Container -->
                 <div class="listings-container compact-list-layout margin-top-35">
 
                     <!-- Job Listing -->
-                    <a href="single-job-page.html" class="job-listing with-apply-button">
+                    <a href="@Url.Action("index", "SinglePageJob")" class="job-listing with-apply-button">
+
 
                         <!-- Job Listing Details -->
                         <div class="job-listing-details">
@@ -186,15 +187,16 @@ End Code
 
                             <!-- Details -->
                             <div class="job-listing-description">
-                                <h3 class="job-listing-title">Bilingual Event Support Specialist</h3>
+                                <h3 class="job-listing-title">Analista Desarrollador Web</h3>
 
                                 <!-- Job Listing Footer -->
                                 <div class="job-listing-footer">
                                     <ul>
-                                        <li><i class="icon-material-outline-business"></i> Hexagon <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
-                                        <li><i class="icon-material-outline-location-on"></i> San Francissco</li>
+                                        <li><i class="icon-material-outline-business"></i> Exceltec <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
+                                        <li><i class="icon-material-outline-location-on"></i> Ciudad De Panama, Panamá</li>
                                         <li><i class="icon-material-outline-business-center"></i> Tiempo Completo</li>
                                         <li><i class="icon-material-outline-access-time"></i> Hace 1 día</li>
+                                        <!--https://www.konzerta.com/empleos/analista-desarrollador-web.-exceltec-1113726479.html?indiceAviso=0-->
                                     </ul>
                                 </div>
                             </div>
@@ -206,7 +208,7 @@ End Code
 
 
                     <!-- Job Listing -->
-                    <a href="single-job-page.html" class="job-listing with-apply-button">
+                    <a href="@Url.Action("about")" class="job-listing with-apply-button"> @* URL.Action para a href *@
 
                         <!-- Job Listing Details -->
                         <div class="job-listing-details">
@@ -218,15 +220,16 @@ End Code
 
                             <!-- Details -->
                             <div class="job-listing-description">
-                                <h3 class="job-listing-title">Competition Law Officer</h3>
+                                <h3 class="job-listing-title">Asesor de ventas para chiriquí</h3>
 
                                 <!-- Job Listing Footer -->
                                 <div class="job-listing-footer">
                                     <ul>
-                                        <li><i class="icon-material-outline-business"></i> Laxo</li>
-                                        <li><i class="icon-material-outline-location-on"></i> San Francissco</li>
+                                        <li><i class="icon-material-outline-business"></i> GRUPO DIT</li>
+                                        <li><i class="icon-material-outline-location-on"></i>David, Chiriquí</li>
                                         <li><i class="icon-material-outline-business-center"></i> Tiempo Completo</li>
                                         <li><i class="icon-material-outline-access-time"></i> Hace 2 día</li>
+                                        <!--https://www.konzerta.com/empleos/asesor-de-ventas-para-chiriqui-grupo-dit-1113721412.html?indiceAviso=6 -->
                                     </ul>
                                 </div>
                             </div>
@@ -234,136 +237,139 @@ End Code
                             <!-- Apply Button -->
                             <span class="list-apply-button ripple-effect">Aplicar</span>
                         </div>
-                    </a>
-                    <!-- Job Listing -->
-                    <a href="single-job-page.html" class="job-listing with-apply-button">
+                        </a>
+                        <!-- Job Listing -->
+                        <a href="single-job-page.html" class="job-listing with-apply-button">
 
-                        <!-- Job Listing Details -->
-                        <div class="job-listing-details">
+                            <!-- Job Listing Details -->
+                            <div class="job-listing-details">
 
-                            <!-- Logo -->
-                            <div class="job-listing-company-logo">
-                                <img src="~/Content/HireoTemplate/images/company-logo-02.png" alt="">
-                            </div>
-
-                            <!-- Details -->
-                            <div class="job-listing-description">
-                                <h3 class="job-listing-title">Barista and Cashier</h3>
-
-                                <!-- Job Listing Footer -->
-                                <div class="job-listing-footer">
-                                    <ul>
-                                        <li><i class="icon-material-outline-business"></i> Coffee</li>
-                                        <li><i class="icon-material-outline-location-on"></i> San Francissco</li>
-                                        <li><i class="icon-material-outline-business-center"></i> Tiempo Completo</li>
-                                        <li><i class="icon-material-outline-access-time"></i> Hace 3 día</li>
-                                    </ul>
+                                <!-- Logo -->
+                                <div class="job-listing-company-logo">
+                                    <img src="~/Content/HireoTemplate/images/company-logo-02.png" alt="">
                                 </div>
-                            </div>
 
-                            <!-- Apply Button -->
-                            <span class="list-apply-button ripple-effect">Aplicar</span>
-                        </div>
-                    </a>
+                                <!-- Details -->
+                                <div class="job-listing-description">
+                                    <h3 class="job-listing-title">Secretaria Recepcionista</h3>
 
-
-                    <!-- Job Listing -->
-                    <a href="single-job-page.html" class="job-listing with-apply-button">
-
-                        <!-- Job Listing Details -->
-                        <div class="job-listing-details">
-
-                            <!-- Logo -->
-                            <div class="job-listing-company-logo">
-                                <img src="~/Content/HireoTemplate/images/company-logo-03.png" alt="">
-                            </div>
-
-                            <!-- Details -->
-                            <div class="job-listing-description">
-                                <h3 class="job-listing-title">Restaurant General Manager</h3>
-
-                                <!-- Job Listing Footer -->
-                                <div class="job-listing-footer">
-                                    <ul>
-                                        <li><i class="icon-material-outline-business"></i> King <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
-                                        <li><i class="icon-material-outline-location-on"></i> San Francissco</li>
-                                        <li><i class="icon-material-outline-business-center"></i> Medio Tiempo</li>
-                                        <li><i class="icon-material-outline-access-time"></i> Hace 3 día</li>
-                                    </ul>
+                                    <!-- Job Listing Footer -->
+                                    <div class="job-listing-footer">
+                                        <ul>
+                                            <li><i class="icon-material-outline-business"></i> Empresa Multinacional</li>
+                                            <li><i class="icon-material-outline-location-on"></i> Chitré, Herrera</li>
+                                            <li><i class="icon-material-outline-business-center"></i> Tiempo Completo</li>
+                                            <li><i class="icon-material-outline-access-time"></i> Hace 3 día</li>
+                                        </ul>
+                                    </div>
                                 </div>
+
+                                <!-- Apply Button -->
+                                <span class="list-apply-button ripple-effect">Aplicar</span>
                             </div>
+                        </a>
 
-                            <!-- Apply Button -->
-                            <span class="list-apply-button ripple-effect">Aplicar</span>
-                        </div>
-                    </a>
 
-                    <!-- Job Listing -->
-                    <a href="single-job-page.html" class="job-listing with-apply-button">
+                        <!-- Job Listing -->
+                        <a href="single-job-page.html" class="job-listing with-apply-button">
 
-                        <!-- Job Listing Details -->
-                        <div class="job-listing-details">
+                            <!-- Job Listing Details -->
+                            <div class="job-listing-details">
 
-                            <!-- Logo -->
-                            <div class="job-listing-company-logo">
-                                <img src="~/Content/HireoTemplate/images/company-logo-05.png" alt="">
-                            </div>
-
-                            <!-- Details -->
-                            <div class="job-listing-description">
-                                <h3 class="job-listing-title">International Marketing Coordinator</h3>
-
-                                <!-- Job Listing Footer -->
-                                <div class="job-listing-footer">
-                                    <ul>
-                                        <li><i class="icon-material-outline-business"></i> Skyist</li>
-                                        <li><i class="icon-material-outline-location-on"></i> San Francissco</li>
-                                        <li><i class="icon-material-outline-business-center"></i> Tiempo Completo</li>
-                                        <li><i class="icon-material-outline-access-time"></i> Hace 4 día</li>
-                                    </ul>
+                                <!-- Logo -->
+                                <div class="job-listing-company-logo">
+                                    <img src="~/Content/HireoTemplate/images/company-logo-03.png" alt="">
                                 </div>
-                            </div>
 
-                            <!-- Apply Button -->
-                            <span class="list-apply-button ripple-effect">Aplicar</span>
-                        </div>
-                    </a>
+                                <!-- Details -->
+                                <div class="job-listing-description">
+                                    <h3 class="job-listing-title">Conductor / Chofer</h3>
 
-                    <!-- Job Listing -->
-                    <a href="single-job-page.html" class="job-listing with-apply-button">
+                                    <!-- Job Listing Footer -->
+                                    <div class="job-listing-footer">
+                                        <ul>
+                                            <li><i class="icon-material-outline-business"></i> MiBus <div class="verified-badge" title="Verified Employer" data-tippy-placement="top"></div></li>
+                                            <li><i class="icon-material-outline-location-on"></i> cuidad De Panama, Panamá</li>
+                                            <li><i class="icon-material-outline-business-center"></i> Medio Tiempo</li>
+                                            <li><i class="icon-material-outline-access-time"></i> Hace 3 día</li>
 
-                        <!-- Job Listing Details -->
-                        <div class="job-listing-details">
-
-                            <!-- Logo -->
-                            <div class="job-listing-company-logo">
-                                <img src="~/Content/HireoTemplate/images/company-logo-05.png" alt="">
-                            </div>
-
-                            <!-- Details -->
-                            <div class="job-listing-description">
-                                <h3 class="job-listing-title">Competition Law Officer</h3>
-
-                                <!-- Job Listing Footer -->
-                                <div class="job-listing-footer">
-                                    <ul>
-                                        <li><i class="icon-material-outline-business"></i> Laxo</li>
-                                        <li><i class="icon-material-outline-location-on"></i> San Francissco</li>
-                                        <li><i class="icon-material-outline-business-center"></i> Medio Tiempo</li>
-                                        <li><i class="icon-material-outline-access-time"></i> Hace 5 día</li>
-                                    </ul>
+                                            <!--https://www.konzerta.com/empleos/conductor-de-almacen-mibus-1113674637.html?indiceAviso=8-->
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <!-- Apply Button -->
-                            <span class="list-apply-button ripple-effect">Aplicar</span>
-                        </div>
-                    </a>
+                                <!-- Apply Button -->
+                                <span class="list-apply-button ripple-effect">Aplicar</span>
+                            </div>
+                        </a>
+
+                        <!-- Job Listing -->
+                        <a href="single-job-page.html" class="job-listing with-apply-button">
+
+                            <!-- Job Listing Details -->
+                            <div class="job-listing-details">
+
+                                <!-- Logo -->
+                                <div class="job-listing-company-logo">
+                                    <img src="~/Content/HireoTemplate/images/company-logo-04.png" alt="">
+                                </div>
+
+                                <!-- Details -->
+                                <div class="job-listing-description">
+                                    <h3 class="job-listing-title">Gerente de Sucursal</h3>
+
+                                    <!-- Job Listing Footer -->
+                                    <div class="job-listing-footer">
+                                        <ul>
+                                            <li><i class="icon-material-outline-business"></i> Scotiabank Panamá</li>
+                                            <li><i class="icon-material-outline-location-on"></i> Los Santos, Los Santos</li>
+                                            <li><i class="icon-material-outline-business-center"></i> Tiempo Completo</li>
+                                            <li><i class="icon-material-outline-access-time"></i> Hace 4 día</li>
+                                            <!--https://www.konzerta.com/empleos/gerente-de-sucursal-scotiabank-panama-1113725921.html?indiceAviso=0-->
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Apply Button -->
+                                <span class="list-apply-button ripple-effect">Aplicar</span>
+                            </div>
+                        </a>
+
+                        <!-- Job Listing -->
+                        <a href="single-job-page.html" class="job-listing with-apply-button">
+
+                            <!-- Job Listing Details -->
+                            <div class="job-listing-details">
+
+                                <!-- Logo -->
+                                <div class="job-listing-company-logo">
+                                    <img src="~/Content/HireoTemplate/images/company-logo-06.png" alt="">
+                                </div>
+
+                                <!-- Details -->
+                                <div class="job-listing-description">
+                                    <h3 class="job-listing-title">Técnico en Redes</h3>
+
+                                    <!-- Job Listing Footer -->
+                                    <div class="job-listing-footer">
+                                        <ul>
+                                            <li><i class="icon-material-outline-business"></i> Cable Onda</li>
+                                            <li><i class="icon-material-outline-location-on"></i> Chitré, Herrera</li>
+                                            <li><i class="icon-material-outline-business-center"></i> Medio Tiempo</li>
+                                            <li><i class="icon-material-outline-access-time"></i> Hace 5 día</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Apply Button -->
+                                <span class="list-apply-button ripple-effect">Aplicar</span>
+                            </div>
+                        </a>
+
+                    </div>
+                    <!-- Jobs Container / End -->
 
                 </div>
-                <!-- Jobs Container / End -->
-
-            </div>
         </div>
     </div>
 </div>
@@ -382,7 +388,7 @@ End Code
 
             <div class="col-xl-3 col-md-6">
                 <!-- Photo Box -->
-                <a href="jobs-list-layout-1.html" class="photo-box" data-background-image="Content/HireoTemplate/images/featured-city-01.jpg">
+                <a href="@Url.Action("JobListPma")" class="photo-box" data-background-image="Content/HireoTemplate/images/featured-city-01.jpg">
                     <div class="photo-box-content">
                         <h3>Panamá</h3>
                         <span>876 Trabajos</span>
@@ -392,7 +398,7 @@ End Code
 
             <div class="col-xl-3 col-md-6">
                 <!-- Photo Box -->
-                <a href="jobs-list-layout-full-page-map.html" class="photo-box" data-background-image="Content/HireoTemplate/images/featured-city-02.jpg">
+                <a href="@Url.Action("AllJob")" class="photo-box" data-background-image="Content/HireoTemplate/images/featured-city-02.jpg">
                     <div class="photo-box-content">
                         <h3>Herrera</h3>
                         <span>645 Trabajos</span>
@@ -402,7 +408,7 @@ End Code
 
             <div class="col-xl-3 col-md-6">
                 <!-- Photo Box -->
-                <a href="jobs-grid-layout-full-page.html" class="photo-box" data-background-image="Content/HireoTemplate/images/featured-city-03.jpg">
+                <a href="@Url.Action("AllJob")" class="photo-box" data-background-image="Content/HireoTemplate/images/featured-city-03.jpg">
                     <div class="photo-box-content">
                         <h3>Los Santos</h3>
                         <span>332 Trabajos</span>
@@ -554,12 +560,12 @@ End Code
 
                                 <!-- Name -->
                                 <div class="freelancer-name">
-                                    <h4><a href="#">Banistmo </a></h4>
+                                    <h4><a href="#">Copa Airlines </a></h4>
                                 </div>
 
                                 <!-- Rating -->
                                 <div class="freelancer-rating">
-                                    <div class="star-rating" data-rating="4.9"></div>
+                                    <div class="star-rating" data-rating="4.8"></div>
                                 </div>
                             </div>
                         </div>
@@ -583,12 +589,12 @@ End Code
 
                                 <!-- Name -->
                                 <div class="freelancer-name">
-                                    <h4><a href="#">Banistmo </a></h4>
+                                    <h4><a href="#">Cable Onda </a></h4>
                                 </div>
 
                                 <!-- Rating -->
                                 <div class="freelancer-rating">
-                                    <div class="star-rating" data-rating="4.9"></div>
+                                    <div class="star-rating" data-rating="4.6"></div>
                                 </div>
                             </div>
                         </div>
@@ -612,12 +618,12 @@ End Code
 
                                 <!-- Name -->
                                 <div class="freelancer-name">
-                                    <h4><a href="#">Banistmo </a></h4>
+                                    <h4><a href="#">Doit Center </a></h4>
                                 </div>
 
                                 <!-- Rating -->
                                 <div class="freelancer-rating">
-                                    <div class="star-rating" data-rating="4.9"></div>
+                                    <div class="star-rating" data-rating="4.5"></div>
                                 </div>
                             </div>
                         </div>
@@ -641,12 +647,12 @@ End Code
 
                                 <!-- Name -->
                                 <div class="freelancer-name">
-                                    <h4><a href="#">Banistmo </a></h4>
+                                    <h4><a href="#">Domino´s Pizza </a></h4>
                                 </div>
 
                                 <!-- Rating -->
                                 <div class="freelancer-rating">
-                                    <div class="star-rating" data-rating="4.9"></div>
+                                    <div class="star-rating" data-rating="4.4"></div>
                                 </div>
                             </div>
                         </div>
@@ -670,12 +676,12 @@ End Code
 
                                 <!-- Name -->
                                 <div class="freelancer-name">
-                                    <h4><a href="#">Banistmo </a></h4>
+                                    <h4><a href="#">Mi Bus </a></h4>
                                 </div>
 
                                 <!-- Rating -->
                                 <div class="freelancer-rating">
-                                    <div class="star-rating" data-rating="4.9"></div>
+                                    <div class="star-rating" data-rating="4.4"></div>
                                 </div>
                             </div>
                         </div>
@@ -688,95 +694,3 @@ End Code
     </div>
 </div>
 <!-- Highest Rated Freelancers / End-->
-<!-- Membership Plans -->
-@*<div class="section padding-top-60 padding-bottom-75">
-    <div class="container">
-        <div class="row">*@
-
-@*<div class="col-xl-12">*@
-<!-- Section Headline -->
-@*<div class="section-headline centered margin-top-0 margin-bottom-35">
-            <h3>Membership Plans</h3>
-        </div>
-    </div>*@
-
-
-@* <div class="col-xl-12">*@
-
-<!-- Billing Cycle  -->
-@*<div class="billing-cycle-radios margin-bottom-70">
-        <div class="radio billed-monthly-radio">
-            <input id="radio-5" name="radio-payment-type" type="radio" checked>
-            <label for="radio-5"><span class="radio-label"></span> Billed Monthly</label>
-        </div>
-
-        <div class="radio billed-yearly-radio">
-            <input id="radio-6" name="radio-payment-type" type="radio">
-            <label for="radio-6"><span class="radio-label"></span> Billed Yearly <span class="small-label">Save 10%</span></label>
-        </div>
-    </div>*@
-
-<!-- Pricing Plans Container -->
-@*<div class="pricing-plans-container">*@
-
-<!-- Plan -->
-@*<div class="pricing-plan">
-        <h3>Basic Plan</h3>
-        <p class="margin-top-10">One time fee for one listing or task highlighted in search results.</p>
-        <div class="pricing-plan-label billed-monthly-label"><strong>$19</strong>/ monthly</div>
-        <div class="pricing-plan-label billed-yearly-label"><strong>$205</strong>/ yearly</div>
-        <div class="pricing-plan-features">
-            <strong>Features of Basic Plan</strong>
-            <ul>
-                <li>1 Listing</li>
-                <li>30 Days Visibility</li>
-                <li>Highlighted in Search Results</li>
-            </ul>
-        </div>
-        <a href="pages-checkout-page.html" class="button full-width margin-top-20">Buy Now</a>
-    </div>*@
-
-<!-- Plan -->
-@*<div class="pricing-plan recommended">
-        <div class="recommended-badge">Recommended</div>
-        <h3>Standard Plan</h3>
-        <p class="margin-top-10">One time fee for one listing or task highlighted in search results.</p>
-        <div class="pricing-plan-label billed-monthly-label"><strong>$49</strong>/ monthly</div>
-        <div class="pricing-plan-label billed-yearly-label"><strong>$529</strong>/ yearly</div>
-        <div class="pricing-plan-features">
-            <strong>Features of Standard Plan</strong>
-            <ul>
-                <li>5 Listings</li>
-                <li>60 Days Visibility</li>
-                <li>Highlighted in Search Results</li>
-            </ul>
-        </div>
-        <a href="pages-checkout-page.html" class="button full-width margin-top-20">Buy Now</a>
-    </div>*@
-
-<!-- Plan -->
-@*<div class="pricing-plan">*@
-
-
-@*<h3>Extended Plan</h3>
-                            <p class="margin-top-10">One time fee for one listing or task highlighted in search results.</p>
-                            <div class="pricing-plan-label billed-monthly-label"><strong>$99</strong>/ monthly</div>
-                            <div class="pricing-plan-label billed-yearly-label"><strong>$1069</strong>/ yearly</div>
-                            <div class="pricing-plan-features">
-                                <strong>Features of Extended Plan</strong>
-                                <ul>
-                                    <li>Unlimited Listings Listing</li>
-                                    <li>90 Days Visibility</li>
-                                    <li>Highlighted in Search Results</li>
-                                </ul>
-                            </div>
-                            <a href="pages-checkout-page.html" class="button full-width margin-top-20">Buy Now</a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>*@
-<!-- Membership Plans / End-->
